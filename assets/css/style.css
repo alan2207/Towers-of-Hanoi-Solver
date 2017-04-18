@@ -1,0 +1,25 @@
+#canvas {
+  display: none;
+  position: absolute;
+  margin: auto;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+}
+
+#menu {
+  font-family: Helvetica, Arial, sans-serif;
+  position: absolute;
+  margin: auto;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  height: 180px;
+  width: 400px;
+  padding: 50px;
+  border: 2px solid black;
+  border-radius: 10px;
+  text-align: center;
+}
