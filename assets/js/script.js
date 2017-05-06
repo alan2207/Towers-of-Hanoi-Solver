@@ -98,7 +98,7 @@ function moveDisk(from, to) {
     delay++;
 }
 
-// algorithm for solving tower of hanoi
+//recursive algorithm for solving towers of hanoi
 function hanoi(n, from, to, aux) {
   if(n >= 1) {
     hanoi(n-1, from, aux, to);
