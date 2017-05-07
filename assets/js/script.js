@@ -53,8 +53,10 @@ function Disk(x, y, width, height, color) {
 // method that draws disk on the canvas
 Disk.prototype.draw = function() {
   ctx.fillStyle = this.color;
+  ctx.lineWidth = 1;
   ctx.fillRect(this.x, this.y, this.width, this.height);
-}
+  ctx.strokeRect(this.x, this.y, this.width, this.height);
+};
 
 // initializes disks on the starting peg
 function initDisks(n) {
